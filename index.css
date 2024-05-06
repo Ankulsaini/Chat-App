@@ -1,0 +1,47 @@
+.mid-section {
+    height: 615px;
+}
+.first::-webkit-scrollbar{
+    display: none;
+}
+
+.first {
+    height: 90%;
+    overflow: auto;
+    margin: 0 20px;
+}
+
+.second {
+    height: 10%;
+    margin: 10px 40px;
+    
+}
+
+.myform {
+    display: flex;
+}
+.left,.right,.center{
+    text-align: justify;
+    width: 60%;
+    margin: 5px 0;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.center{
+    clear: both;
+    margin: auto;
+    margin-bottom: 5px ;
+    text-align: center; 
+}
+
+@media only screen and (min-width:0px) and (max-width:768px) {
+    .mid-section{
+        height: 555px;
+        
+        
+    }
+}
